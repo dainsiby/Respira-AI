@@ -1,9 +1,9 @@
 # AI Components
 
 This directory contains the pneumonia detection and explainability modules.
-# PNEUMOAID
+# RESPIRA AI
 
-PNEUMOAID is an AI-assisted Clinical Decision Support Platform for Pneumonia Detection.
+RESPIRA AI is an AI-assisted Clinical Decision Support Platform for Pneumonia Detection.
 
 ## Features
 
