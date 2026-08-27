@@ -1,0 +1,1 @@
+# Hospital Node Config Package
