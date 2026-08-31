@@ -1,0 +1,4 @@
+# Ignore all stored X-ray image files in hospital-node storage
+*
+!.gitignore
+!.gitkeep

@@ -1,0 +1,6 @@
+# Local node credential storage (GitIgnored for security)
+.node_credentials.json
+
+*.pyc
+__pycache__/
+*.sqlite3

@@ -7,19 +7,30 @@ __pycache__/
 .venv/
 venv/
 
-# Node
+# Node / Web Frontend
 node_modules/
 dist/
 build/
 
-# VS Code
+# VS Code & Pyright
 .vscode/
+backend/pyrightconfig.json
+
+# Scratch & Temporary Scripts
+scratch/
 
 # Logs
 *.log
 
-# Database
+# Database dumps and sqlite
 *.sqlite3
+*.sql
+*.dump
+*.backup
+
+# Node Credentials & Credentials
+.node_credentials.json
+*.credentials.json
 
 # Environment
 .env
@@ -28,6 +39,27 @@ build/
 .env.production
 !.env.example
 
+# Clinical Imaging & DICOM Data
+*.dcm
+*.dicom
+*.png
+*.jpg
+*.jpeg
+hospital-node/storage/incoming_xrays/*
+!hospital-node/storage/incoming_xrays/.gitkeep
+hospital-node/storage/processed_xrays/*
+!hospital-node/storage/processed_xrays/.gitkeep
+hospital-node/storage/failed_xrays/*
+!hospital-node/storage/failed_xrays/.gitkeep
+hospital-node/storage/quarantine/*
+!hospital-node/storage/quarantine/.gitkeep
+
+# AI Weights
+*.pth
+*.pt
+*.onnx
+*.h5
+*.keras
 
 # OS
 .DS_Store
